@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
 
+<link rel="stylesheet" href="style.css">
+<title>Práctica bloque 3</title>
+<script>
+function funcion_nom() {
+  var nom = document.getElementById("nom").value;
+}
+
+function funcion_cognom() {
+  var cognom = document.getElementById("cognom").value;
+  alert ('Bienvenido ' + nom.value + ' ' + cognom)
+}
+</script>
+
+</head>
+
+<body >
+
+<h1>Práctica bloque 3</h1>
+Introduce nombre:  <input type="text" id="nom" onchange="funcion_nom()"> Introduce apellido1: <input type="text" id="cognom" onchange="funcion_cognom()">
+
+</body>
+</html>
